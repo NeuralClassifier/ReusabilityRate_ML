@@ -12,6 +12,7 @@ This repository contains artifacts for predicting the Software Reusability rate 
 * [Content](#content)
 * [Instructions](#instructions)
   * [Using Docker image](#docker)
+  * [Dependencies](#dependencies)
 * [Contributors](#contributors)
 
 ## Abstract
@@ -58,6 +59,14 @@ docker run -p 8888:8888 rrrml:v0.1
 ```
 A url will be provided on the last line of the output. YOu can check the docker branch [here](https://github.com/NeuralClassifier/ReusabilityRate_ML/tree/docker).
 
+
+## Dependencies
+The program requires the following Python libraries:
+* scikit-learn==1.0.1
+* tensorflow==2.7.0
+* seaborn==0.11.2
+* matplotlib==3.5.0
+* pandas==1.3.4
 
 # Contributors
 
