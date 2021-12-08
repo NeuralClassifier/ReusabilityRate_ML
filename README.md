@@ -57,7 +57,7 @@ Finally you can run it:
 ```
 docker run -p 8888:8888 rrrml:v0.1
 ```
-A url will be provided on the last line of the output. YOu can check the docker branch [here](https://github.com/NeuralClassifier/ReusabilityRate_ML/tree/docker).
+A url will be provided on the last line of the output. You can check the docker branch [here](https://github.com/NeuralClassifier/ReusabilityRate_ML/tree/docker).
 
 
 ## Dependencies
