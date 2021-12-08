@@ -10,6 +10,8 @@ This repository contains artifacts for predicting the Software Reusability rate 
 ## Table of Content
 * [Abstract of report](#abstract)
 * [Content](#content)
+* [Instructions](#instructions)
+  * [Using Docker image](#docker)
 * [Contributors](#contributors)
 
 ## Abstract
@@ -23,6 +25,38 @@ This repository contains the source code and Jupyter notebooks for data preproce
 
 * `DataSets` directory contains all datasets that we used in this work. It also contains some intermediate data that we needed for the evaluation part.
 * `Results` direcorty contains all our findings and experiments' results.
+
+# Instructions
+The program is written in Python 3.8 using Jupyter notebooks. First, you need to install Jupyter lab:
+* Using conda:
+```
+conda install -c conda-forge jupyterlab
+```
+or using pip:
+```
+pip install jupyterlab
+```
+
+Then, you need to clone this directory on your local machine's working direcoty. Also you can open each of the notebooks in Google colab and use their resources.
+## Docker
+We also provide a docker verson of our artifact that you can be sure of runtime environment compatibility!
+In order to use our docker image, clone the docker branch:
+```
+git clone -b docker https://github.com/NeuralClassifier/ReusabilityRate_ML.git
+```
+Go to Docker directory:
+```
+cd ReusabilityRate_ML/Docekr/
+```
+build image:
+```
+docker build -t rrml:v0.1 --force-rm --no-cache -f Dockerfile .
+```
+Finally you can run it:
+```
+docker run -p 8888:8888 rrrml:v0.1
+```
+A url will be provided on the last line of the output.
 
 # Contributors
 
