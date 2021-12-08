@@ -62,11 +62,11 @@ A url will be provided on the last line of the output. YOu can check the docker 
 
 ## Dependencies
 The program requires the following Python libraries:
-* scikit-learn==1.0.1
-* tensorflow==2.7.0
-* seaborn==0.11.2
-* matplotlib==3.5.0
-* pandas==1.3.4
+* scikit-learn v1.0.1
+* tensorflow v2.7.0
+* seaborn v0.11.2
+* matplotlib v3.5.0
+* pandas v1.3.4
 
 # Contributors
 
