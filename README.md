@@ -19,7 +19,10 @@ The final report is available on: **LINK**
 
 ## Content
 
-This repository contains the source code and notebooks for data preprocessing, data correlation, and ML method evaluation parts. We use data from SOTorrent for this work. For the exact code and results used in the EMSE paper, please check the v1.0 release.
+This repository contains the source code and Jupyter notebooks for data preprocessing, data correlation, and ML method evaluation parts. We use data provided by  Papamichail et al. (2019) for this work.
+
+* `DataSets` directory contains all datasets that we used in this work. It also contains some intermediate data that we needed for the evaluation part.
+* `Results` direcorty contains all our findings and experiments' results.
 
 # Contributors
 
