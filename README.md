@@ -32,15 +32,15 @@ The program is written in Python 3.8 using Jupyter notebooks. First, you need to
 ```
 conda install -c conda-forge jupyterlab
 ```
-or using pip:
+* or using pip:
 ```
 pip install jupyterlab
 ```
 
-Then, you need to clone this directory on your local machine's working direcoty. Also you can open each of the notebooks in Google colab and use their resources.
+Then, it would help if you cloned this directory on your local machine's working directory. Also, you can open each of the notebooks in Google collab and use their resources.
 ## Docker
-We also provide a docker verson of our artifact that you can be sure of runtime environment compatibility!
-In order to use our docker image, clone the docker branch:
+We also provide a docker version of our artifact that you can be sure of runtime environment compatibility!
+To use our docker image, clone the docker branch:
 ```
 git clone -b docker https://github.com/NeuralClassifier/ReusabilityRate_ML.git
 ```
@@ -56,7 +56,8 @@ Finally you can run it:
 ```
 docker run -p 8888:8888 rrrml:v0.1
 ```
-A url will be provided on the last line of the output.
+A url will be provided on the last line of the output. YOu can check the docker branch [here](https://github.com/NeuralClassifier/ReusabilityRate_ML/tree/docker).
+
 
 # Contributors
 
