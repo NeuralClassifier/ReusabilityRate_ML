@@ -30,7 +30,7 @@ This repository contains the source code and Jupyter notebooks for data preproce
   * `best_classifier_model_selection.ipynb`: This notebook gets the classifier that is giving the best accuracy and the metric (when used for training) that is giving the best avg overall accuracy.
   * `best_regression_model_selection.ipynb`: Same as previous, but also presents a bar plot that depicts the number of times a model has been found as the optimal when trained with different static analysis metric.
   * `classifier_pred_reusibility.ipynb`: Returns the accuracy, prec and rec of each classifier for every static analysis metric.
-  * `no_cls_pkg_dataset_generation.ipynb`: This notebook is for creating a dataset. Each row of the dataset contains the number of classes/ number of packages in a project, `Xtrain`, and the average reuse rate of that project, `Ytrain`.
+  * `no_cls_pkg_dataset_generation.ipynb`: This notebook is for creating a dataset. Each row of the dataset contains the number of classes/ number of packages in a project, `Xtrain`, and the average reuse rate of that project, `Ytrain`. The class level results can be found at `ReusabilityRate_ML/Results/class_frequencyRes_TraditionalModels.xlsx` and the package level results can be found at `ReusabilityRate_ML/Results/package_frequencyRes_TraditionalModels.xlsx`.
   * `correlation_analysis.ipynb`: This notebook is related to the correlation analysis experiment. 
   * `dnn_data_normalization.ipynb`: To use the dataset as the feed for the DNN model, we should normalize all columns individually; otherwise, the model would consider some inputs as white noise.
   * `all_input_dnn.ipynb`: Compute and evaluate the result for DNN Classifier and Regression models.
